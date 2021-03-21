@@ -1,4 +1,4 @@
-const rank = Number(prompt("Please enter nth number: "));
+const rank = Number(prompt('Please enter nth number: '));
 let number1 = 1;
 let number2 = 2;
 let fiboSequence = [number1, number2];
