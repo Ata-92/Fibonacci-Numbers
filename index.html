@@ -21,5 +21,19 @@
     </code>
   </section>
   <script src="app.js"></script>
+  <section>
+    <h1>JavaScript Version</h1>
+    <code>
+      const rank = Number(prompt("Please enter nth number: ")); <br>
+      let number1 = 1; <br>
+      let number2 = 2; <br>
+      let fiboSequence = [number1, number2]; <br>
+      for (let i = 0; i < rank; i++) { <br>
+      &nbsp; number2 = number1 + number2; <br>
+      &nbsp; number1 = number2 - number1; <br>
+      } <br>
+      console.log(fiboSequence[rank - 1]);
+    </code>
+  </section>
 </body>
 </html>
